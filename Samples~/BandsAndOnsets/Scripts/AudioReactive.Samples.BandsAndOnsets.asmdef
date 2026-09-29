@@ -1,0 +1,8 @@
+{
+    "name": "AudioReactive.Samples.BandsAndOnsets",
+    "rootNamespace": "AudioReactive.Samples",
+    "references": [
+        "AudioReactive.Runtime"
+    ],
+    "autoReferenced": false
+}

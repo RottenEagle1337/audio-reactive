@@ -1,0 +1,18 @@
+* text=auto eol=lf
+*.cs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.asmdef text eol=lf
+*.meta text eol=lf
+*.shader text eol=lf
+*.unity text eol=lf merge=unityyamlmerge
+*.mat text eol=lf merge=unityyamlmerge
+*.asset text eol=lf merge=unityyamlmerge
+*.vfx text eol=lf
+*.dll binary
+*.so binary
+*.bundle binary
+*.png binary
+
+*.gif binary
+*.jpg binary

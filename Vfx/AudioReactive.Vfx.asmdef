@@ -1,0 +1,25 @@
+{
+    "name": "AudioReactive.Vfx",
+    "rootNamespace": "AudioReactive.Vfx",
+    "references": [
+        "AudioReactive.Runtime",
+        "Unity.VisualEffectGraph.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "AUDIOREACTIVE_VFX"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.visualeffectgraph",
+            "expression": "12.0.0",
+            "define": "AUDIOREACTIVE_VFX"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,49 @@
+{
+  "name": "com.rotteneagle.audioreactive",
+  "version": "1.0.0-preview.1",
+  "displayName": "Audio Reactive",
+  "description": "Minimal low-latency audio-reactive toolkit in the spirit of LASP: native WASAPI capture of the system output (loopback) or any input device, a band-filtered level tracker with onset detection, a log / octave spectrum analyzer, property binders, live inspector meters and VFX Graph property binders. This release ships the native plugin for Windows x64 only.",
+  "unity": "6000.0",
+  "license": "Unlicense",
+  "author": {
+    "name": "RottenEagle",
+    "url": "https://github.com/RottenEagle1337"
+  },
+  "documentationUrl": "https://github.com/RottenEagle1337/audio-reactive#readme",
+  "changelogUrl": "https://github.com/RottenEagle1337/audio-reactive/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/RottenEagle1337/audio-reactive/blob/main/LICENSE.md",
+  "keywords": [
+    "audio",
+    "audio-reactive",
+    "visualization",
+    "spectrum",
+    "vfx"
+  ],
+  "samples": [
+    {
+      "displayName": "Level Basics",
+      "description": "One Audio Level Tracker scaling a sphere with a Vector3 binder; the starting point. URP.",
+      "path": "Samples~/LevelBasics"
+    },
+    {
+      "displayName": "Bands & Onsets",
+      "description": "Low / Mid / High trackers with LowPass, BandPass and HighPass filters; onset envelope flash and the On Onset event. URP.",
+      "path": "Samples~/BandsAndOnsets"
+    },
+    {
+      "displayName": "Property Binders",
+      "description": "Every binder type (Float, Vector3, Euler Rotation, Color, Material Float, Material Color) on lights, transforms and materials. URP.",
+      "path": "Samples~/PropertyBinders"
+    },
+    {
+      "displayName": "Spectrum",
+      "description": "Spectrum Analyzer read from code (octave bars) and as a texture in a shader (log band bars). URP.",
+      "path": "Samples~/Spectrum"
+    },
+    {
+      "displayName": "VFX Graph",
+      "description": "Audio Level, Audio Spectrum and Audio Waveform VFX Property Binders driving three small effects. Requires Visual Effect Graph and URP.",
+      "path": "Samples~/VfxGraph"
+    }
+  ]
+}
